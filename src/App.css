@@ -1,22 +1,16 @@
 @import 'https://fontlibrary.org//face/ricasso' ;
 
-
 @import 'https://fontlibrary.org//face/serreria-sobria' ;
-
 
 @import 'https://fontlibrary.org//face/android-7' ;
 
-
 @import 'https://fontlibrary.org//face/beuron' ;
 
-
 @import 'https://fontlibrary.org//face/radis-sans' ;
-
 
 @import 'https://fontlibrary.org//face/retro-edge' ;
 
 @import 'https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap' ;
-
 
 * {
   box-sizing: border-box;
@@ -118,9 +112,9 @@ body {
   border: 1px solid white;
   border-radius: 10px;
   color: white;
-  margin: 10px 0;
+  margin: 10px 20px;
   overflow: hidden;
-  width: 350px;
+  width: 380px;
 }
 
 /*
