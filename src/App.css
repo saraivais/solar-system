@@ -125,7 +125,7 @@ https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right
 */
 
 .mission-name {
-  background: linear-gradient(to left, rgba(0, 0, 0, 0) 50%, blue 50%) right;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 50%, white 50%) right;
   background-size: 200%;
   font-family: SerreriaSobriaMedium , monospace;
   padding: 10px;
@@ -135,6 +135,7 @@ https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right
 
 .mission-name:hover {
   background-position: left;
+  color: black;
 }
 
 @keyframes planet-spin {
