@@ -1,3 +1,175 @@
-.App {
+@import 'https://fontlibrary.org//face/ricasso' ;
+
+
+@import 'https://fontlibrary.org//face/serreria-sobria' ;
+
+
+@import 'https://fontlibrary.org//face/android-7' ;
+
+
+@import 'https://fontlibrary.org//face/beuron' ;
+
+
+@import 'https://fontlibrary.org//face/radis-sans' ;
+
+
+@import 'https://fontlibrary.org//face/retro-edge' ;
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('images/background.png');
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header-title {
+  color: white;
+  font-family: BeuronRegular , monospace;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 0.5em;
+  padding: 30px 10px;
+}
+
+.header-title:before {
+  background: url('images/rocket.png');
+  background-size: cover;
+  content: none;
+  height: 70px;
+  left: -100px;
+  position: absolute;
+  width: 70px;
+  z-index: 2;
+}
+
+.header-title:hover:before {
+  animation: little-rocket-animation 5s ease-in-out;
+  content: ' ';
+}
+
+.solar-system {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  color: sandybrown;
+  font-family: RicassoRegular , monospace;
+  font-size: 32px;
+  font-weight: 300;
+  padding: 15px;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.planets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.planet-card {
+  display: flex;
+  justify-content: center;
+}
+
+.planet-name {
+  color: white;
+  display: none;
+  font-family: SerreriaSobriaMedium , monospace;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  z-index: 1;
+}
+
+.planet-image {
+  animation: planet-spin infinite 20s linear;
+  width: 210px;
+  z-index: 0;
+}
+
+.planet-card:hover .planet-name {
+  align-self: center;
+  display: block;
+  text-shadow: 3px 3px 2px black;
+}
+
+.all-missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.mission-card {
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  margin: 10px 0;
+  overflow: hidden;
+  width: 350px;
+}
+
+/*
+https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right-css
+*/
+
+.mission-name {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 50%, blue 50%) right;
+  background-size: 200%;
+  font-family: SerreriaSobriaMedium , monospace;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: 0.5s ease-out;
+}
+
+.mission-name:hover {
+  background-position: left;
+}
+
+@keyframes planet-spin {
+
+  from {
+    transform: rotateZ(0deg);
+  }
+
+  25% {
+    transform: rotateZ(15deg);
+  }
+
+  50% {
+    transform: rotateZ(0deg);
+  }
+
+  75% {
+    transform: rotateZ(-15deg);
+  }
+
+  to {
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes little-rocket-animation {
+
+  from {
+    transform: rotateZ(140deg)
+      translateY(0);
+  }
+
+  to {
+    transform: translateX(2000px)
+      rotateZ(140deg)
+      translateY(50px);
+  }
 }
