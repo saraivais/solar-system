@@ -15,6 +15,8 @@
 
 @import 'https://fontlibrary.org//face/retro-edge' ;
 
+@import 'https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap' ;
+
 
 * {
   box-sizing: border-box;
@@ -39,6 +41,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.5em;
   padding: 30px 10px;
+  filter: drop-shadow(0 0 0.75rem white);
 }
 
 .header-title:before {
@@ -137,6 +140,16 @@ https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right
 .mission-name:hover {
   background-position: left;
   color: black;
+}
+
+.mission-info {
+  padding: 10px;
+  font-family: Share Tech Mono , monospace;
+}
+
+.mission-year {
+  font-size: 20px;
+  padding: 0 0 5px 0;
 }
 
 @keyframes planet-spin {
