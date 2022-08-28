@@ -6,7 +6,7 @@
   
 ### Description
 This project was developed in April 2022, as part of the Front-end module at Trybe.
-The objective of Solar System was to create a landing page containing all planets and known missions, using React components.
+The objective of Solar System was to create a landing page containing all planets and known missions to these planets, using React components.
 
 ### Technologies and Tools
 Solar System was developed using React and CSS.
@@ -15,11 +15,11 @@ Solar System was developed using React and CSS.
 <img src="https://w7.pngwing.com/pngs/4/808/png-transparent-css3-css3-logo-logo-language-programming-language-css-3d-icon-thumbnail.png" width="75" alt="css-logo"/>
 <br>
 In it, I could develop my skills of:
-- JSX, a Javascript syntax extension;
-- The render() method;
+- ```JSX```, a Javascript syntax extension;
+- The ```render()``` method;
 - Imports and exports from different files;
-- Utilization of props;
-- Validate props using the PropTypes library;
+- Utilization of ```props```;
+- Validate props using the ```PropTypes``` library;
 - Create components from an array using HOFs.
 
 ### Installation
@@ -53,7 +53,7 @@ In it, I could develop my skills of:
   
 ### Descrição
 Este projeto foi desenvolvido em Abril de 2022, como parte do módulo Front-end da Trybe.
-O objetivo do Solar System era criar uma landing page contendo todos os planetas e missões conhecidas, usando componentes React.
+O objetivo do Solar System era criar uma landing page contendo todos os planetas e missões conhecidas a estes planetas, usando componentes React.
 ### Tecnologias e Ferramentas
 O Solar System foi desenvolvido usando React e CSS.
 <br>
@@ -61,11 +61,11 @@ O Solar System foi desenvolvido usando React e CSS.
 <img src="https://w7.pngwing.com/pngs/4/808/png-transparent-css3-css3-logo-logo-language-programming-language-css-3d-icon-thumbnail.png" width="75" alt="css-logo"/>
 <br>
 Nele, pude desenvolver minhas habilidades de:
-- JSX, uma extensão de sintaxe Javascript;
-- O método render();
+- ```JSX```, uma extensão de sintaxe Javascript;
+- O método ```render()```;
 - Importações e exportações de diferentes arquivos;
-- Utilização de props;
-- Validar props usando a biblioteca PropTypes;
+- Utilização de ```props```;
+- Validar props usando a biblioteca ```PropTypes```;
 - Criar componentes a partir de um array usando HOFs.
 
 ### Instalação
