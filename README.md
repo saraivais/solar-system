@@ -23,6 +23,27 @@ In it, I could develop my skills of:
 - Create components from an array using HOFs.
 
 ### Installation
+1. Create a directory using the **mkdir** command:
+```
+  mkdir saraivais-projects
+```
+
+2. Access the directory using the **cd** command and clone the repository:
+```
+  cd saraivais-projects
+  git clone git@github.com:saraivais/solar-system.git
+```
+
+3. Access the project directory and install it's dependencies:
+```
+  cd solar-system
+  npm i
+```
+
+4. Lastly, use the **npm start** command and access the project via browser, using the following url
+```
+  http://localhost:3000
+```
 
 </details>
 
@@ -48,6 +69,27 @@ Nele, pude desenvolver minhas habilidades de:
 - Criar componentes a partir de um array usando HOFs.
 
 ### Instalação
+1. Crie um diretório usando o comando **mkdir**:
+```
+  mkdir saraivais-projetos
+```
+
+2. Acesse o diretório usando o comando **cd** e clone o repositório:
+```
+  cd saraivais-projetos
+  git clone git@github.com:saraivais/solar-system.git
+```
+
+3. Acesse o diretório do projeto e instale suas dependências:
+```
+  cd solar-system
+  npm i
+```
+
+4. Por fim, use o comando **npm start** e acesse o projeto via navegador, usando a seguinte url
+```
+  http://localhost:3000
+```
 
 </details>
 
