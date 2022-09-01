@@ -7,7 +7,7 @@
   <summary>Click to expand!</summary>
   
 ### Description
-This project was developed in April 2022, as part of the Front-end module at Trybe.
+This project was developed in April 2022, as part of the Front-end module at [Trybe](https://www.betrybe.com/).
 The objective of Solar System was to create a landing page containing all planets and known missions to these planets, using React class components.
 
 ### Technologies and Tools
@@ -56,7 +56,7 @@ In it, I could develop my skills of:
   <summary>Clique para expandir!</summary>
   
 ### Descrição
-Este projeto foi desenvolvido em Abril de 2022, como parte do módulo Front-end da Trybe.
+Este projeto foi desenvolvido em Abril de 2022, como parte do módulo Front-end da [Trybe](https://www.betrybe.com/).
 O objetivo do Solar System era criar uma landing page contendo todos os planetas e missões conhecidas a estes planetas, usando componentes de classe React.
 ### Tecnologias e Ferramentas
 O Solar System foi desenvolvido usando React e CSS.
